@@ -3,8 +3,8 @@ import { Router } from './route.js'
 const router = new Router()
 
 router.add('/', '/pages/home.html')
-router.add('/exploracao', '/pages/exploracao.html')
-router.add('/universo', '/pages/universo.html')
+router.add('/pages/exploracao.html', '/pages/exploracao.html')
+router.add('/pages/universo.html', '/pages/universo.html')
 
 router.handle()
 
