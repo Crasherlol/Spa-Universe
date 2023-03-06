@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "http://{Crasherlol}.github.io/{Spa-Universe}",
   "scripts": {
-    "start": "lite-server"
+  "start": "lite-server",
+  "predeploy" : "npm run build",
+  "deploy" : "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+  "gh-pages": "^5.0.0"
   }
 }
