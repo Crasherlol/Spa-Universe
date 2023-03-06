@@ -11,7 +11,8 @@ Uma SPA(Single Page Application) feita com css e html
 - SPA estilizada
 - animação css
 
-
+## Observação
+- Necessário abrir com live server ou npm start
 
 
 
