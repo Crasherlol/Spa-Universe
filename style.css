@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root {
+    font-size: 62.5%;
+    --h1-color: #E1E1E6;
+    --text-color: #E1E1E6;
+}
+body {
+    background-image: url(images/universe-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+.li, a{ 
+    font-size: 2.4rem;
+    line-height: 2.2rem;
+    text-decoration: none;
+    color: #C4C4CC;
+    padding-left: 3.0rem;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 4.0rem;
+    padding-left: 7.2rem;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    margin-left: 3.2rem;
+    
+}
+.nav_links li a:focus{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+h1 {
+    position: absolute;
+    top: 40.8rem;
+    left: 72rem;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color:var(--h1-color);
+    animation: textAnimation;
+    animation-duration: 1700ms;
+
+
+}
+button{
+    position: absolute;
+    top: 49.8rem;
+    left: 82rem;
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    width: 19.5rem;
+    height: 4.8rem;
+    background-color: transparent;
+    animation: textAnimation;
+    animation-duration: 1700ms;
+}
+body.newbg {
+    background-image: url(images/universe-background2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+body.newbgTwo {
+    background-image: url(images/universe-background3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-family: 'Roboto';
+    color: #E1E1E6;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 160%;
+    animation: textAnimation;
+    animation-duration: 1700ms;
+}
+.universo, .exploracao {
+    position: absolute;
+    top: 35.1rem;
+    left: 13rem;
+}
+.universoH1, .h1Exploracao{
+    top: 20.8rem;
+    left: 13rem;
+}
+@keyframes textAnimation{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
