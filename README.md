@@ -1,7 +1,20 @@
-# Focus-timer
-Uma aplicação em html e css estilizada aplicando a SPA (Single Page Application) com animações
+# Spa-Universe
+Uma SPA(Single Page Application) feita com css e html
 
-Funcionalidades
-SPA (Single Page Application)
-Animações em css
-🔗 Links
+
+
+
+
+
+## Funcionalidades
+
+- SPA estilizada
+- animação css
+
+
+
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-eduardo-11546b108/)
